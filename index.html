@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form validator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="select">
+            <lable for="movie">Pick a Movie: </lable>
+            <select id="val">
+                   <option value="10">avenger end game($10)</option>
+                   <option value="12">joker($12)</option>
+                   <option value="8">toy story($8)</option>
+                   <option value="9">the lion king($9)</option>
+            </select>
+
+            <div class="list">
+                <span class="nk"></span> N/A <span class="se"></span> Selected <span class="occ"></span> Occuiped
+            </div>
+        </div>
+        <div class="choose-seat">
+            <div class="left-section">
+                <span class="nk"></span> <span class="nk"></span> <span class="nk"></span> <span class="nk"></span>
+                <span class="nk"></span> <span class="nk"></span> <span class="nk"></span> <span class="nk"></span>
+                <span class="nk"></span> <span class="nk"></span> <span class="nk"></span> <span class="nk"></span>
+            </div>
+
+            <div class="middile-section">
+                <span class="nk"></span> <span class="nk"></span> <span class="nk"></span> <span class="nk"></span>
+                <span class="nk"></span> <span class="occ"></span> <span class="occ"></span> <span class="nk"></span>
+                <span class="nk"></span> <span class="occ"></span> <span class="nk"></span> <span class="nk"></span>
+                <span class="nk"></span> <span class="occ"></span> <span class="nk"></span> <span class="nk"></span>
+                <span class="nk"></span> <span class="nk"></span> <span class="occ"></span> <span class="nk"></span>
+                <span class="nk"></span> <span class="nk"></span> <span class="nk"></span> <span class="nk"></span>
+                <span class="nk"></span> <span class="nk"></span> <span class="nk"></span> <span class="nk"></span>
+                <span class="nk"></span> <span class="nk"></span>
+
+            </div>
+
+            <div class="right-section">
+                <span class="nk"></span> <span class="nk"></span> <span class="nk"></span> <span class="nk"></span>
+                <span class="nk"></span> <span class="nk"></span> <span class="nk"></span> <span class="nk"></span>
+                <span class="nk"></span> <span class="nk"></span> <span class="nk"></span> <span class="nk"></span>
+            </div>
+
+        </div>
+        <div class="result">
+            <p id="result">You have selected <span>0</span> seats for a price of $<span>0</span></p>
+        </div>
+    </div>
+
+
+    <script src="custom.js"></script>
+</body>
+
+</html>
